@@ -431,8 +431,8 @@ public class RNZebraBluetoothPrinterModule extends ReactContextBaseJavaModule im
 
         ZebraPrinter zebraPrinter = ZebraPrinterFactory.getInstance(connection);
         Log.d("Connection estd", "Instance created");
-        PrinterStatus status = zebraPrinter.getCurrentStatus();
-        Log.d("Connection estd", "status opgehaald");
+        //PrinterStatus status = zebraPrinter.getCurrentStatus();
+        Log.d("Connection estd", "status skipped");
 
         String pl = SGD.GET("device.languages", connection);
 
